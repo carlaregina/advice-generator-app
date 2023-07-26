@@ -1,0 +1,58 @@
+
+.message-content{
+    margin: 30px 10px 40px 10px;
+}
+.title-content{
+    top: 15px;
+    position: relative;
+}
+#advice-btn{
+    border: none;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    position: relative;
+    cursor: pointer;
+    bottom: 50px;
+}
+
+#advice-btn:hover{
+    box-shadow: 0 0 10px 5px hsl(150, 100%, 66%);
+    
+}
+
+.card-advice-container{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    flex-direction: column;
+}
+.card-advice-content{
+    text-align: center;
+    width: 350px; 
+    border-radius: 4px;  
+    padding-bottom: 4.5rem;
+}
+.split-line-mobile{
+    position: relative;
+    bottom: 4.5rem;
+}
+.split-line-desktop{
+    display: none;
+}
+@media only screen and (min-width: 600px) {
+   .split-line-mobile{
+    display: none;
+   }
+   .split-line-desktop{
+    display: block;
+    position: relative;
+    bottom: 4.5rem;
+   }
+   .card-advice-content{
+    width: 500px;
+    
+   }
+
+}

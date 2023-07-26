@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Nunito+Sans:wght@300;600;800&family=Roboto:wght@700&display=swap');
+
+.font-primary {
+    font-family: 'Manrope', sans-serif;
+}
+.font-size-quote {
+    font-size: 1.75rem;
+
+}
+.w800{
+    font-weight: 800;
+}
+
+

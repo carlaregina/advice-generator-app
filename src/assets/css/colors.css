@@ -1,0 +1,15 @@
+.bg-dark-blue {
+    background: var(--neutral-dark-blue);
+}
+.bg-grayish-blue {
+    background: var(--neutral-dark-grayish-blue);
+}
+.bg-neon-green {
+    background: var(--primary-neon-green);
+}
+.text-neon-green{
+    color: var(--primary-neon-green);
+}
+.text-light-neon {
+    color: var(--primary-light-cyan);
+}
